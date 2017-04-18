@@ -22,12 +22,12 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="col-md-4lapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
             <a class="navbar-brand" href="#">Swapbook</a>
-            <div class="collapse navbar-collapse" id="navbarExample">
+            <div class="col-md-4lapse navbar-col-md-4lapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -55,71 +55,190 @@
             <a href="#" class="btn btn-primary btn-lg">สมัครสมาชิกเลย</a>
         </header>
         <!-- Page Features -->
-        <div class="row text-center">
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="{{asset('images/book1.jpg')}}" alt="">
-                    <div class="card-block">
-                        <h4 class="card-title">เทคนิค อ่านไม่ลืม</h4>
-                        <p class="card-text">คุณหมดจิตแพทย์มาเปิดเผยเทคนิคที่ทำให้คุณอ่านหนังสือแล้วไม่ลืม</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Swap book</a>
-                    </div>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book1.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">เทคนิค อ่านไม่ลืม</h2>
+                    <p class="card-text text-left">คุณหมดจิตแพทย์มาเปิดเผยเทคนิคที่ทำให้คุณอ่านหนังสือแล้วไม่ลืม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="{{asset('images/book2.jpg')}}" alt="">
-                    <div class="card-block">
-                        <h4 class="card-title">แค่เราปรับ คนอื่นก็เปลี่ยน</h4>
-                        <p class="card-text">หนังสือที่แนะนำว่าคุณจะปรับตัวอย่างไรให้เข้ากับสังคม</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Swap book</a>
-                    </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book2.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">แค่เราปรับ คนอื่นก็เปลี่ยน</h2>
+                    <p class="card-text text-left">หนังสือที่แนะนำว่าคุณจะปรับตัวอย่างไรให้เข้ากับสังคม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="{{asset('images/book3.jpg')}}" alt="">
-                    <div class="card-block">
-                        <h4 class="card-title">นิทานอีสัส</h4>
-                        <p class="card-text">จ่าพิชิต กับหนังสือที่เอาเรื่องนิทานต่างๆผสมกับการสอนเรื่องราวที่เปิดเผยความจริง</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Swap book</a>
-                    </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book3.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">นิทานอีสัส</h2>
+                    <p class="card-text text-left">จ่าพิชิต กับหนังสือที่เอาเรื่องนิทานต่างๆผสมกับการสอนเรื่องราวที่เปิดเผยความจริง</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="{{asset('images/book4.jpg')}}" alt="">
-                    <div class="card-block">
-                        <h4 class="card-title">Zero to one</h4>
-                        <p class="card-text">หนังสือสร้างแรงบันดาลใจให้คุณที่คิดว่าจะเริ่มธุรกิจ ว่าทำอย่างไรจึงประสบความสำเร็จ</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Swap book</a>
-                    </div>
-                </div>
-            </div>
-
+            
         </div>
-        <!-- /.row -->
-       
+        <!-- /.card-deck -->
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book1.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">เทคนิค อ่านไม่ลืม</h2>
+                    <p class="card-text text-left">คุณหมดจิตแพทย์มาเปิดเผยเทคนิคที่ทำให้คุณอ่านหนังสือแล้วไม่ลืม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book2.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">แค่เราปรับ คนอื่นก็เปลี่ยน</h2>
+                    <p class="card-text text-left">หนังสือที่แนะนำว่าคุณจะปรับตัวอย่างไรให้เข้ากับสังคม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book3.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">นิทานอีสัส</h2>
+                    <p class="card-text text-left">จ่าพิชิต กับหนังสือที่เอาเรื่องนิทานต่างๆผสมกับการสอนเรื่องราวที่เปิดเผยความจริง</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- /.card-deck -->
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book1.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">เทคนิค อ่านไม่ลืม</h2>
+                    <p class="card-text text-left">คุณหมดจิตแพทย์มาเปิดเผยเทคนิคที่ทำให้คุณอ่านหนังสือแล้วไม่ลืม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book2.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">แค่เราปรับ คนอื่นก็เปลี่ยน</h2>
+                    <p class="card-text text-left">หนังสือที่แนะนำว่าคุณจะปรับตัวอย่างไรให้เข้ากับสังคม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book3.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">นิทานอีสัส</h2>
+                    <p class="card-text text-left">จ่าพิชิต กับหนังสือที่เอาเรื่องนิทานต่างๆผสมกับการสอนเรื่องราวที่เปิดเผยความจริง</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- /.card-deck -->
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book1.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">เทคนิค อ่านไม่ลืม</h2>
+                    <p class="card-text text-left">คุณหมดจิตแพทย์มาเปิดเผยเทคนิคที่ทำให้คุณอ่านหนังสือแล้วไม่ลืม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book2.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">แค่เราปรับ คนอื่นก็เปลี่ยน</h2>
+                    <p class="card-text text-left">หนังสือที่แนะนำว่าคุณจะปรับตัวอย่างไรให้เข้ากับสังคม</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="{{asset('images/book3.jpg')}}" alt="">
+                <div class="card-block">
+                    <h2 class="card-title">นิทานอีสัส</h2>
+                    <p class="card-text text-left">จ่าพิชิต กับหนังสือที่เอาเรื่องนิทานต่างๆผสมกับการสอนเรื่องราวที่เปิดเผยความจริง</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">เจ้าของ: &nbsp;<a href="#">Karun Jaraslertsuwan</a></li>
+                </ul>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Swap book</a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- /.card-deck -->
 
+        
     </div>
     <!-- /.container -->
+
+    
+     
 
     <!-- Footer -->
     <footer class="py-5 bg-inverse">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+            <p class="m-0 text-center text-white">Copyright &copy; Swapbook 2017</p>
         </div>
         <!-- /.container -->
     </footer>
